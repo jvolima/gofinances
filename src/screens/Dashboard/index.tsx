@@ -22,7 +22,7 @@ export interface DataListProps extends TransactionCardProps {
 }
 
 export function Dashboard() {
-  const data: DataListProps = [
+  const data: DataListProps[] = [
     {
       id: "1",
       type: "positive",
@@ -100,7 +100,7 @@ export function Dashboard() {
 
         <TransactionList 
           data={data}
-          keyExtractor={item => item.id.toString()}
+          keyExtractor={item => item.id}
           renderItem={({ item }) => <TransactionCard data={item} />}
         />
       </Transactions>
