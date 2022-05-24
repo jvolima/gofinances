@@ -3,7 +3,7 @@ import { getBottomSpace } from 'react-native-iphone-x-helper';
 import { Feather } from '@expo/vector-icons';
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 import { getStatusBarHeight } from "react-native-iphone-x-helper"
-import { FlatList, FlatListProps } from "react-native";
+import { FlatList, FlatListProps, TouchableOpacity } from "react-native";
 import { DataListProps } from ".";
 
 export const Container = styled.View`
@@ -61,6 +61,9 @@ export const UserName = styled.Text`
   
   font-size: ${RFValue(18)}px;
   font-family: ${({ theme }) => theme.fonts.bold};
+`;
+
+export const LogoutButton = styled(TouchableOpacity)`
 `;
 
 export const Icon = styled(Feather)`
