@@ -9,6 +9,7 @@
 - Styled components
 - React-navigation
 - AsyncStorage
+- Victory (lib para criação de gráficos)
 
 ## Principais aprendizados
 - Desenvolver interfaces mobile
