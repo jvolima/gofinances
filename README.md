@@ -10,6 +10,7 @@
 - React-navigation
 - AsyncStorage
 - Victory (lib para criação de gráficos)
+- Date-fns
 
 ## Principais aprendizados
 - Desenvolver interfaces mobile
@@ -17,6 +18,8 @@
 - Validação de forms com o yup
 - Navegação com react-navigation
 - Inserir e pegar informações no dispositivo do usuário utilizando o Async storage
+- Utilização do useFocusEffect
+- Trabalhar com datas utilizando o date-fns
 
 ## Layout da aplicação
 - Acesse o layout da aplicação no [Figma](https://www.figma.com/file/ZD8ohz5KbyNS4dx3uXaY2W/GoFinances-Ignite-(Copy)?node-id=4%3A1182)
