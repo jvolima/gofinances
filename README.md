@@ -20,6 +20,8 @@
 - Inserir e pegar informações no dispositivo do usuário utilizando o Async storage
 - Utilização do useFocusEffect
 - Trabalhar com datas utilizando o date-fns
+- Criação de hooks
+- OAuth (Google e Apple)
 
 ## Layout da aplicação
 - Acesse o layout da aplicação no [Figma](https://www.figma.com/file/ZD8ohz5KbyNS4dx3uXaY2W/GoFinances-Ignite-(Copy)?node-id=4%3A1182)
