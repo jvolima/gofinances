@@ -17,6 +17,7 @@
 - Formulários controlados com o react-hook-form
 - Validação de forms com o yup
 - Navegação com react-navigation
+- Tab e Stack navigator
 - Inserir e pegar informações no dispositivo do usuário utilizando o Async storage
 - Utilização do useFocusEffect
 - Trabalhar com datas utilizando o date-fns
